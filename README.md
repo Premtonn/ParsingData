@@ -3,6 +3,8 @@
  
  The initial messy file is the "ex2.csv". The data logger didn't create a certain pattern to be followed, so the data was very hard to read/understand at first glance. That's why the parsing of the data was inevitable. The results of the parsing are put into a new csv file called "data11.csv". On that file the data is more user friendly, and very comprehensible. As mentioned before, this data is then also sent to the "datalogger" database in the local SQL server.
  
+The data parsing was done with the use of the numpy and pandas libraries. The connection between python and the SQL database was done with the help of the pyodbc module.
+ 
  ## Local SQL Server
  
  The local SQL server was created with the help of SQL Server 2014 Management studio. Here's a video tutorial from youtube to show you how to setup SQL Server 2014 Management Studio, and also how to create the local SQL Server: [SQL Server Setup](https://www.youtube.com/watch?v=E_zFM7mzFUg).
