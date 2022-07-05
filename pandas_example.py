@@ -56,10 +56,10 @@ df.rename(columns={'25': 'Int_Temperature', '26': 'Int_Humidity', '27': 'Int_Coi
 df.to_csv('data11.csv', sep=";")
 
 conn_str = ("Driver={SQL Server Native Client 11.0};"
-            "Server=MIC-BCEN-K05\SQLEXPRESS,54342;"
-            "Database=datalogger;"
-            "UID=user2;"
-            "PWD=Premtazmo1234;")
+            "Server=YOUR_SERVER_NAME,PORT_NUMBER;"
+            "Database=YOUR_DATABASE;"
+            "UID=YOUR_USERNAME;"
+            "PWD=YOUR_PASSWORD;")
 conn = pyodbc.connect(conn_str)
 
 cursor = conn.cursor()
