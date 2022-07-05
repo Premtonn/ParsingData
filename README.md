@@ -15,6 +15,6 @@
 -Then you click on IP Addresses.
 -Scroll all the way to the bottom until you see IPAll and copy the TCP Dynamic Ports, that is your PORT_NUMBER.
 
-*** If your TCP/IP is not enabled, then you need to open the Sql Server Configuration Manager as administrator, and right click on TCP/IP, and click on Enable. ***
+***If your TCP/IP is not enabled, then you need to open the Sql Server Configuration Manager as administrator, and right click on TCP/IP, and click on Enable.***
 
  After all this replace YOUR_DATABASE, with the name you gave your database, and then replace YOUR_USERNAME and YOUR_PASSWORD with the credentials that allow you to have access to editing the database.
